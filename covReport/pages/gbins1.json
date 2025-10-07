@@ -1,8 +1,16 @@
 var g_data = {
-c1259:[4,'w_inc',[],,'1258',1,1,'write_cg','1253','/top_sv_unit/fifo_cov',[[],[0,'1','0',1,'auto[0]'],[0,'1','21',,'auto[1]']],[]],
-c1260:[4,'w_full',[],,'1258',1,1,'write_cg','1253','/top_sv_unit/fifo_cov',[[],[0,'1','21',,'auto[0]'],[0,'1','0',1,'auto[1]']],[]],
-c1574:[4,'w_inc',[],,'1573',1,1,'write_cg','1568','work.top_sv_unit::fifo_cov',[[],[0,'1','0',1,'auto[0]'],[0,'1','21',,'auto[1]']],[]],
-c1575:[4,'w_full',[],,'1573',1,1,'write_cg','1568','work.top_sv_unit::fifo_cov',[[],[0,'1','21',,'auto[0]'],[0,'1','0',1,'auto[1]']],[]],
+c1254:[4,'write_data',[],,'1253',1,1,'write_cg','1248','/top_sv_unit/fifo_cov',[[],[0,'1','9998',,'data_low'],[0,'1','3',,'data_high']],[]],
+c1255:[4,'wfull',[],,'1253',1,1,'write_cg','1248','/top_sv_unit/fifo_cov',[[],[0,'1','11',,'full_flag[0]'],[0,'1','9990',,'full_flag[1]']],[]],
+c1256:[4,'winc',[],,'1253',1,1,'write_cg','1248','/top_sv_unit/fifo_cov',[[],[0,'1','0',1,'winc[0]'],[0,'1','10001',,'winc[1]']],[]],
+c1258:[4,'read_data',[],,'1257',1,1,'read_cg','1248','/top_sv_unit/fifo_cov',[[],[0,'1','9994',,'data_low'],[0,'1','6',,'data_high']],[]],
+c1259:[4,'rempty',[],,'1257',1,1,'read_cg','1248','/top_sv_unit/fifo_cov',[[],[0,'1','9999',,'empty_flag[0]'],[0,'1','1',,'empty_flag[1]']],[]],
+c1260:[4,'rinc',[],,'1257',1,1,'read_cg','1248','/top_sv_unit/fifo_cov',[[],[0,'1','0',1,'rinc[0]'],[0,'1','10000',,'rinc[1]']],[]],
+c1566:[4,'write_data',[],,'1565',1,1,'write_cg','1560','work.top_sv_unit::fifo_cov',[[],[0,'1','9998',,'data_low'],[0,'1','3',,'data_high']],[]],
+c1567:[4,'wfull',[],,'1565',1,1,'write_cg','1560','work.top_sv_unit::fifo_cov',[[],[0,'1','11',,'full_flag[0]'],[0,'1','9990',,'full_flag[1]']],[]],
+c1568:[4,'winc',[],,'1565',1,1,'write_cg','1560','work.top_sv_unit::fifo_cov',[[],[0,'1','0',1,'winc[0]'],[0,'1','10001',,'winc[1]']],[]],
+c1570:[4,'read_data',[],,'1569',1,1,'read_cg','1560','work.top_sv_unit::fifo_cov',[[],[0,'1','9994',,'data_low'],[0,'1','6',,'data_high']],[]],
+c1571:[4,'rempty',[],,'1569',1,1,'read_cg','1560','work.top_sv_unit::fifo_cov',[[],[0,'1','9999',,'empty_flag[0]'],[0,'1','1',,'empty_flag[1]']],[]],
+c1572:[4,'rinc',[],,'1569',1,1,'read_cg','1560','work.top_sv_unit::fifo_cov',[[],[0,'1','0',1,'rinc[0]'],[0,'1','10000',,'rinc[1]']],[]],
 dummyEnd:0
 };
 processCovergroupsData(g_data);

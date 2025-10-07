@@ -1,10 +1,9 @@
 QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
-Start time: 13:07:07 on Oct 07,2025
+Start time: 16:49:00 on Oct 07,2025
 vlog "+define+UVM_NO_DPI" -sv "+acc" "+cover" "+fcover" -l sr_ff.log top.sv "+incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src" 
 -- Compiling package top_sv_unit
 -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
 ** Warning: fifo_sequence.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-** Warning: fifo_sequence.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 ** Warning: fifo_sequence.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 -- Compiling interface fifo_if
 -- Compiling module FIFO_memory
@@ -16,5 +15,5 @@ vlog "+define+UVM_NO_DPI" -sv "+acc" "+cover" "+fcover" -l sr_ff.log top.sv "+in
 
 Top level modules:
 	top
-End time: 13:07:08 on Oct 07,2025, Elapsed time: 0:00:01
-Errors: 0, Warnings: 3
+End time: 16:49:01 on Oct 07,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2

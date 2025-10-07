@@ -19,9 +19,9 @@ class fifo_write_seq_item extends uvm_sequence_item;
         super.new(name);
     endfunction //new()
    
-constraint c{
-	wdata inside {[0:256]};
-} 
+//constraint c{
+//	wdata inside {[0:256]};
+//} 
 endclass //fifo_write_seq_item extends uvm_seq_item
 
 

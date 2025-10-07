@@ -24,11 +24,10 @@ class fifo_environment extends uvm_env;
     write_agent.monitor.item_collected_port.connect(scoreboard.write_fifo.analysis_export);
     read_agent.monitor.item_collected_port.connect(scoreboard.read_fifo.analysis_export);
     
-    // Connect write monitor to coverage
-    write_agent.monitor.item_collected_port.connect(cov.write_export);
+    write_agent.monitor.item_collected_port.connect(cov.write_fifo.analysis_export);
     
     // Connect read monitor to coverage
-    read_agent.monitor.item_collected_port.connect(cov.read_export);
+    read_agent.monitor.item_collected_port.connect(cov.read_fifo.analysis_export);
   endfunction
   
 endclass

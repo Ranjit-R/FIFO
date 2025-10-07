@@ -1,0 +1,7 @@
+# vsim -vopt work.top -voptargs="+acc=npr" -assertdebug -l simulation.log -coverage -c -do "coverage save -onexit -assert -directive -cvg -codeAll coverage.ucdb; run -all; exit" 
+# Start time: 16:50:15 on Oct 07,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 16:50:15 on Oct 07,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

@@ -17,10 +17,10 @@ class fifo_write_sequence extends uvm_sequence #(fifo_write_seq_item);
         repeat(no_of_trans)begin
             item = fifo_write_seq_item::type_id::create("item");
             start_item(item);
-                if(count < 16)
-                item.randomize() with { winc == 1'b1;wdata == count;};
-                else
-                item.randomize() with { winc == 1'b0;wdata == count;};
+                //if(count < 16)
+                item.randomize() with { winc == 1'b1;};
+                //else
+                //item.randomize() with { winc == 1'b0;wdata == count;};
             finish_item(item);
             `uvm_info(get_type_name(), $sformatf("Write Sequence Item: wdata = %0h, winc = %0b, wfull = %0b", item.wdata, item.winc, item.wfull), UVM_MEDIUM)
             count ++;
