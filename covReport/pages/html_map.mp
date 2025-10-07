@@ -3,6 +3,7 @@ map_file1.json = NON_SCOPE
 src_map_file1.json = NON_SCOPE
 s1.json = NON_SCOPE
 t1.json = NON_SCOPE
+a1.json = NON_SCOPE
 z1.json = NON_SCOPE
 sdb1.json = NON_SCOPE
 b1.json = NON_SCOPE

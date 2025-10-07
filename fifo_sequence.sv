@@ -56,32 +56,4 @@ class fifo_read_sequence extends uvm_sequence #(fifo_read_seq_item);
     endtask // body
 endclass //fifo_read_seq extends superClass
 
-// class fifo_virtual_sequence extends uvm_sequence #(uvm_sequence_item);
-    
-//     fifo_write_sequence write_seq;
-//     fifo_read_sequence read_seq;
 
-//     // fifo_write_sequencer write_seqr;
-//     // fifo_read_sequencer read_seqr;
-
-//     `uvm_object_utils(fifo_virtual_sequence)
-//     `uvm_declare_p_sequencer(fifo_virtual_sequencer)
-
-
-//     function new(string name = "fifo_virtual_sequence");
-//         super.new(name);
-//     endfunction //new()
-
-
-//     virtual task body();
-//         write_seq = fifo_write_sequence::type_id::create("write_seq");
-//         read_seq = fifo_read_sequence::type_id::create("read_seq");
-
-//         fork
-           
-//             write_seq.start( p_sequencer );
-//             read_seq.start( p_sequencer );
-            
-//         join
-//     endtask //body
-//     endclass

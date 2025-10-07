@@ -45,6 +45,49 @@ interface fifo_if  (input bit wclk, input bit rclk, input bit wrst_n, input bit 
     input rempty;
     input rptr;
   endclocking
+
+property p1;
+    @(posedge wclk) disable iff (!wrst_n)
+      winc |-> !($isunknown(wdata));
+  endproperty
+      
+  wdata_check:
+    assert property (p1)
+      $info("ASSERTION-1 PASSED: WDATA CHECK");
+    else
+      $error("ASSERTION-1 FAILED: WDATA CHECK");
+      
+
+  property p2;
+    @(posedge wclk) disable iff (!wrst_n)
+      (winc && wfull) |-> $stable(wdata);
+  endproperty
+        
+  wdata_stability_check:
+    assert property (p2)
+      $info("ASSERTION-2 PASSED: WDATA STABILITY CHECK");
+    else
+      $error("ASSERTION-2 FAILED: WDATA STABILITY CHECK");
+      
+
+  property p3;
+    @(posedge rclk) disable iff (!rrst_n)
+      (rinc && !rempty) |-> !($isunknown(rdata));
+  endproperty
+   
+  rdata_check:
+    assert property (p3)
+      $info("ASSERTION-3 PASSED: RDATA CHECK");
+    else
+      $error("ASSERTION-3 FAILED: RDATA CHECK");
+      
+  
+  property p4;
+    @(posedge rclk) disable iff (!rrst_n)
+      !(rempty && wfull);
+  endproperty
+ 
+
   
   // // Modports for drivers
   // modport wdrv_mp (
