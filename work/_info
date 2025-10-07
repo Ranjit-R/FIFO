@@ -1,0 +1,279 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//fetools/work_area/frontend/Batch_10/ranjith_6101/FIFO
+T_opt
+!s110 1759736074
+VZkdI:XBCAcJ[Gg22DMkj<1
+Z1 04 3 4 work top fast 0
+=1-6805caf5892c-68e37109-d4ee1-13d37
+Z2 o-quiet -auto_acc_if_foreign -work work +acc=npr
+Z3 tCvgOpt 0
+n@_opt
+Z4 OE;O;10.6c;65
+R0
+T_opt1
+!s110 1759810436
+VjZo=8GncPmfXRi0Eg2^hE3
+R1
+=1-6805caf5892c-68e49383-b8d73-2a31d
+R2
+R3
+n@_opt1
+R4
+vFIFO
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z6 DXx6 mtiUvm 7 uvm_pkg 0 22 oMKUklN?>LE6@MJe7=2><1
+Z7 DXx4 work 11 top_sv_unit 0 22 7FUNhhiS>j1Xc0HVoMU0a3
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z:@SkOFBHFh<W[P_FZl;_1
+INBm;SR4nm_72f@]SiiaT=2
+Z9 !s105 top_sv_unit
+S1
+R0
+w1759733156
+8FIFO.v
+Z10 FFIFO.v
+L0 15
+Z11 OE;L;10.6c;65
+Z12 !s108 1759810433.000000
+Z13 !s107 fifo_test.sv|fifo_environment.sv|fifo_func_cov.sv|fifo_scoreboard.sv|fifo_read_active_agent.sv|fifo_write_active_agent.sv|fifo_read_active_monitor.sv|fifo_write_active_monitor.sv|fifo_read_driver.sv|fifo_write_driver.sv|fifo_sequencer.sv|fifo_sequence.sv|fifo_seq_item.sv|wptr_full.v|two_ff_sync.v|rptr_empty.v|FIFO_memory.v|FIFO.v|fifo_if.sv|defines.sv|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top.sv|
+Z14 !s90 +define+UVM_NO_DPI|-sv|+acc|+cover|+fcover|-l|sr_ff.log|top.sv|+incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src|
+!i113 0
+Z15 !s102 +cover
+Z16 o-sv +acc +cover +fcover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z17 !s92 +define+UVM_NO_DPI -sv +acc +cover +fcover +incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@f@i@f@o
+Yfifo_if
+R5
+R6
+R7
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 eb8eXGOIi0KMdm9K]7A^P3
+IVRCeNQE7Y]9nM69MAZD2>3
+R9
+S1
+R0
+w1759732772
+8fifo_if.sv
+Z18 Ffifo_if.sv
+L0 1
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3
+vFIFO_memory
+R5
+R6
+R7
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 kS8^H9R4B186>NE2S5AFY0
+I5]z>GE:8LGBY?GI_4h__Q0
+R9
+S1
+R0
+w1759733178
+8FIFO_memory.v
+Z19 FFIFO_memory.v
+L0 13
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3
+n@f@i@f@o_memory
+vrptr_empty
+R5
+R6
+R7
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 bV:UMz14MT]`kdkJG0GTn0
+IUYBAb;BQVXK_Nc`OQ6]U<2
+R9
+S1
+R0
+w1759733198
+8rptr_empty.v
+Z20 Frptr_empty.v
+L0 9
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3
+vtop
+R5
+R6
+R7
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 RQLHOn5n0OUn1IHoQEVec2
+I7AgkWGNM6OK_n<czTPzFE3
+R9
+S1
+R0
+w1759736070
+Z21 8top.sv
+Z22 Ftop.sv
+L0 23
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3
+Xtop_sv_unit
+!s115 fifo_if
+R5
+R6
+V7FUNhhiS>j1Xc0HVoMU0a3
+r1
+!s85 0
+31
+!i10b 1
+!s100 e=`oSAUIBOG6deAZU2NVE0
+I7FUNhhiS>j1Xc0HVoMU0a3
+!i103 1
+S1
+R0
+w1759810432
+R21
+R22
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Fdefines.sv
+R18
+R10
+R19
+R20
+Z23 Ftwo_ff_sync.v
+Z24 Fwptr_full.v
+Ffifo_seq_item.sv
+Ffifo_sequence.sv
+Ffifo_sequencer.sv
+Ffifo_write_driver.sv
+Ffifo_read_driver.sv
+Ffifo_write_active_monitor.sv
+Ffifo_read_active_monitor.sv
+Ffifo_write_active_agent.sv
+Ffifo_read_active_agent.sv
+Ffifo_scoreboard.sv
+Ffifo_func_cov.sv
+Ffifo_environment.sv
+Ffifo_test.sv
+L0 2
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3
+vtwo_ff_sync
+R5
+R6
+R7
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 [0dLzfkjkYX5ZOCbfZ9193
+IRW@ngAZBD7<a6W;`7iLKX0
+R9
+S1
+R0
+w1759733225
+8two_ff_sync.v
+R23
+L0 9
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3
+vwptr_full
+R5
+R6
+R7
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 2Ljm4bFlAJoJFG^nf:85d0
+Ii7n[B[ECJQWJAeEKjG0:M2
+R9
+S1
+R0
+w1759733249
+8wptr_full.v
+R24
+L0 9
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+R3

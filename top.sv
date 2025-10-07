@@ -14,7 +14,7 @@ import uvm_pkg::*;
   `include "fifo_write_active_agent.sv"
   `include "fifo_read_active_agent.sv"		
   `include "fifo_scoreboard.sv"
-//   `include "fifo_subscriber.sv"
+  `include "fifo_func_cov.sv"
   `include "fifo_environment.sv"
   `include "fifo_test.sv"
 //   `include "fifo_bind.sv"

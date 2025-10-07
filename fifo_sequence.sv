@@ -44,11 +44,9 @@ class fifo_read_sequence extends uvm_sequence #(fifo_read_seq_item);
     virtual task body();
         fifo_read_seq_item item;
 
-        if (!$value$plusargs("no_of_trans=%d", no_of_trans)) begin
-            no_of_trans = 10; // default value
-        end
+        
 
-        repeat(no_of_trans) begin
+        repeat(`no_trans) begin
             item = fifo_read_seq_item::type_id::create("item");
             start_item(item);
             item.randomize() with { rinc == 1'b1; };

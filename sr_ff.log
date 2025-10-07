@@ -1,0 +1,26 @@
+QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 09:43:53 on Oct 07,2025
+vlog "+define+UVM_NO_DPI" -sv "+acc" "+cover" "+fcover" -l sr_ff.log top.sv "+incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src" 
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Warning: fifo_func_cov.sv(30): (vlog-2727) One of implicit coverpoints at line '30' is a duplicate of the explicitly declared coverpoint 'cp_winc' at line '26'. The coverage score may be skewed as a result.
+** Warning: fifo_func_cov.sv(29): (vlog-2727) One of implicit coverpoints at line '29' is a duplicate of the explicitly declared coverpoint 'cp_wfull' at line '27'. The coverage score may be skewed as a result.
+** Warning: fifo_func_cov.sv(30): (vlog-2727) One of implicit coverpoints at line '30' is a duplicate of the explicitly declared coverpoint 'cp_wdata' at line '28'. The coverage score may be skewed as a result.
+** Warning: fifo_func_cov.sv(39): (vlog-2727) One of implicit coverpoints at line '39' is a duplicate of the explicitly declared coverpoint 'cp_rinc' at line '35'. The coverage score may be skewed as a result.
+** Warning: fifo_func_cov.sv(38): (vlog-2727) One of implicit coverpoints at line '38' is a duplicate of the explicitly declared coverpoint 'cp_rempty' at line '36'. The coverage score may be skewed as a result.
+** Warning: fifo_func_cov.sv(39): (vlog-2727) One of implicit coverpoints at line '39' is a duplicate of the explicitly declared coverpoint 'cp_rdata' at line '37'. The coverage score may be skewed as a result.
+** Warning: fifo_sequence.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: fifo_sequence.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: fifo_sequence.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+-- Compiling interface fifo_if
+-- Compiling module FIFO_memory
+-- Compiling module rptr_empty
+-- Compiling module two_ff_sync
+-- Compiling module wptr_full
+-- Compiling module FIFO
+-- Compiling module top
+
+Top level modules:
+	top
+End time: 09:43:54 on Oct 07,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 9

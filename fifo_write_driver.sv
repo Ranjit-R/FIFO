@@ -50,4 +50,4 @@ super.run_phase(phase);
     @(vif.wdrv_cb);
   endtask
   
-endclass                    
+endclass                            
